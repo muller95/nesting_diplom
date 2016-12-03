@@ -1,0 +1,64 @@
+\documentclass[14pt]{extarticle}
+\usepackage{mathtext}
+\usepackage{amsfonts}
+\usepackage{layout}
+\usepackage[height=25cm, a4paper, hmargin={3cm,2cm}]{geometry}
+
+\usepackage[TS1,T2A]{fontenc}
+\usepackage [utf8x] {inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{fancyhdr}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\usepackage{listings}
+\usepackage{afterpage}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[labelsep=period]{caption}
+\lstset{language=C,
+showspaces=false,
+showtabs=false,
+breaklines=true,
+showstringspaces=false,
+breakatwhitespace=true,
+escapeinside={(*@}{@*)},
+commentstyle=\color{greencomments},
+keywordstyle=\color{bluekeywords}\bfseries,
+stringstyle=\color{redstrings},
+basicstyle=\ttfamily,
+extendedchars=\true,
+inputencoding=utf8x
+}
+\usepackage [english , russian] {babel}
+\usepackage{etoolbox}
+\addto\captionsrussian{\def\contentsname{Содержание}}
+\addto\captionsrussian{\def\bibname{Список литературы}}
+\renewcommand{\labelitemi}{---}
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
+\usepackage {indentfirst}
+\thispagestyle{empty}
+\begin{document}
+\setcounter{equation}{7}
+\begin{tikzpicture}
+\draw[->, thick] (0, 0) -- (0, 7);
+    \draw[->, thick] (0, 0) -- (10, 0);
+    \draw (10.3, 0) node {X}; 
+    \draw (0, 7.3) node {Y}; 
+    \draw[thick] (0.3, 7) .. controls (1.5, 3.5) .. (2, 3.5) .. controls (2.5, 3.5) .. (3.5, 4.5) .. controls (5, 6) .. (5, 6) .. controls (6, 7) .. (6.5, 3) .. controls (7, -0.5) and (8, -0.5) .. (10, 4);
+    
+    \draw[fill=black] (2, 3.5) circle (0.1);
+    \draw[fill=black] (7.55, 0.5) circle (0.1);
+    
+    \draw (2, 3.8) node {1};
+    \draw (7.55, 0.8) node {2};
+\end{tikzpicture}
+\end{document}

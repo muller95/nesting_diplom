@@ -1,0 +1,59 @@
+	\begin{figure}[h]
+		\begin{center}
+			\begin{tikzpicture}[box/.style={rectangle,draw=black, minimum size=0.5cm}]
+			\foreach \x in {0,0.5,...,5}
+				\foreach \y in {0,0.5,...,5}
+					\node[box] at (\x,\y){};
+				
+			\foreach \x in {0, 0.5,...,5}
+				\node[box, pattern=north west lines] at (\x, 0){};
+				
+			\node[box, pattern=north west lines] at (0, 0.5){};
+			\node[box, pattern=north west lines] at (0.5, 0.5){};
+			\node[box, pattern=north west lines] at (0.5, 1.0){};
+			\node[box, pattern=north west lines] at (0.5, 1.5){};
+			\node[box, pattern=north west lines] at (1.0, 1.5){};
+			\node[box, pattern=north west lines] at (1.0, 2.0){};
+			\node[box, pattern=north west lines] at (1.0, 2.5){};
+			\node[box, pattern=north west lines] at (1.0, 3.0){};
+			\node[box, pattern=north west lines] at (1.0, 3.5){};
+			\node[box, pattern=north west lines] at (1.5, 3.5){};
+			\node[box, pattern=north west lines] at (2.0, 3.5){};
+			\node[box, pattern=north west lines] at (2.0, 4.0){};
+			\node[box, pattern=north west lines] at (2.0, 4.5){};
+			\node[box, pattern=north west lines] at (2.5, 4.5){};
+			\node[box, pattern=north west lines] at (2.5, 5.0){};
+			
+			\node[box, pattern=north west lines] at (5.0, 0.5){};
+			\node[box, pattern=north west lines] at (4.5, 0.5){};
+			\node[box, pattern=north west lines] at (4.5, 1.0){};
+			\node[box, pattern=north west lines] at (4.5, 1.5){};
+			\node[box, pattern=north west lines] at (4.0, 1.5){};
+			\node[box, pattern=north west lines] at (4.0, 2.0){};
+			\node[box, pattern=north west lines] at (4.0, 2.5){};
+			\node[box, pattern=north west lines] at (4.0, 3.0){};
+			\node[box, pattern=north west lines] at (4.0, 3.5){};
+			\node[box, pattern=north west lines] at (3.5, 3.5){};
+			\node[box, pattern=north west lines] at (3.0, 3.5){};
+			\node[box, pattern=north west lines] at (3.0, 4.0){};
+			\node[box, pattern=north west lines] at (3.0, 4.5){};
+			
+			\node[box, fill=gray] at (2.0, 2.0){};
+			\node[box, fill=gray] at (2.0, 1.5){};
+			\node[box, fill=gray] at (2.0, 1.0){};
+			\node[box, fill=gray] at (2.5, 1.0){};
+			\node[box, fill=gray] at (3.0, 1.0){};
+			\node[box, fill=gray] at (3.0, 1.5){};
+			\node[box, fill=gray] at (3.0, 2.0){};
+			\node[box, fill=gray] at (2.5, 2.0){};
+			
+			
+			\draw (0, 0) -- (5, 0);
+			\draw (0, 0) -- (1.0, 2.1) -- (1.0, 3.1) -- (1.5, 3.6) -- (1.9, 3.6) -- (2.5, 5);
+			\draw (5, 0) -- (4.0, 2.1) -- (4.0, 3.1) -- (3.5, 3.6) -- (2.9, 3.6) -- (2.5, 5);
+			\draw (2.5, 1.5) circle (0.7); 
+			\end{tikzpicture}
+		\end{center}
+		\caption{Фигура с выделенным контуром}
+		\label{result_contour}
+	\end{figure}

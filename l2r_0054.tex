@@ -1,0 +1,123 @@
+\documentclass[14pt]{extarticle}
+\usepackage{mathtext}
+\usepackage{amsfonts}
+\usepackage{layout}
+\usepackage[height=25cm, a4paper, hmargin={3cm,2cm}]{geometry}
+
+\usepackage[TS1,T2A]{fontenc}
+\usepackage [utf8x] {inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{fancyhdr}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\usepackage{listings}
+\usepackage{afterpage}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[labelsep=period]{caption}
+\lstset{language=C,
+showspaces=false,
+showtabs=false,
+breaklines=true,
+showstringspaces=false,
+breakatwhitespace=true,
+escapeinside={(*@}{@*)},
+commentstyle=\color{greencomments},
+keywordstyle=\color{bluekeywords}\bfseries,
+stringstyle=\color{redstrings},
+basicstyle=\ttfamily,
+extendedchars=\true,
+inputencoding=utf8x
+}
+\usepackage [english , russian] {babel}
+\usepackage{etoolbox}
+\addto\captionsrussian{\def\contentsname{Содержание}}
+\addto\captionsrussian{\def\bibname{Список литературы}}
+\renewcommand{\labelitemi}{---}
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
+\usepackage {indentfirst}
+\thispagestyle{empty}
+\begin{document}
+\setcounter{equation}{3}
+\begin{tikzpicture}
+[box/.style={rectangle,draw=black, minimum size=0.5cm}]
+   \foreach \x in {0,0.5,...,5}
+    \foreach \y in {0,0.5,...,5}
+     \node[box] at (\x,\y){};
+     
+    \node[box, fill=gray] at (2.0, 2.0){};
+    \node[box, fill=gray] at (2.0, 1.5){};
+    \node[box, fill=gray] at (2.0, 1.0){};
+    \node[box, fill=gray] at (2.5, 1.0){};
+    \node[box, fill=gray] at (3.0, 1.0){};
+    \node[box, fill=gray] at (3.0, 1.5){};
+    \node[box, fill=gray] at (3.0, 2.0){};
+    \node[box, fill=gray] at (2.5, 2.0){};
+    
+
+    \node[box, pattern=crosshatch] at (2.5, 1.5){};
+    
+    \foreach \x in {0, 0.5,...,5}
+     \node[box, pattern=north west lines] at (\x, 0){};
+    
+    \node[box, pattern=north west lines] at (0, 0.5){};
+    \node[box, pattern=north west lines] at (0.5, 0.5){};
+    \node[box, pattern=north west lines] at (0.5, 1.0){};
+    \node[box, pattern=north west lines] at (0.5, 1.5){};
+    \node[box, pattern=north west lines] at (1.0, 1.5){};
+    \node[box, pattern=north west lines] at (1.0, 2.0){};
+    \node[box, pattern=north west lines] at (1.0, 2.5){};
+    \node[box, pattern=north west lines] at (1.0, 3.0){};
+    \node[box, pattern=north west lines] at (1.0, 3.5){};
+    \node[box, pattern=north west lines] at (1.5, 3.5){};
+    \node[box, pattern=north west lines] at (2.0, 3.5){};
+    \node[box, pattern=north west lines] at (2.0, 4.0){};
+    \node[box, pattern=north west lines] at (2.0, 4.5){};
+    \node[box, pattern=north west lines] at (2.5, 4.5){};
+    \node[box, pattern=north west lines] at (2.5, 5.0){};
+    
+    \node[box, pattern=north west lines] at (5.0, 0.5){};
+    \node[box, pattern=north west lines] at (4.5, 0.5){};
+    \node[box, pattern=north west lines] at (4.5, 1.0){};
+    \node[box, pattern=north west lines] at (4.5, 1.5){};
+    \node[box, pattern=north west lines] at (4.0, 1.5){};
+    \node[box, pattern=north west lines] at (4.0, 2.0){};
+    \node[box, pattern=north west lines] at (4.0, 2.5){};
+    \node[box, pattern=north west lines] at (4.0, 3.0){};
+    \node[box, pattern=north west lines] at (4.0, 3.5){};
+    \node[box, pattern=north west lines] at (3.5, 3.5){};
+    \node[box, pattern=north west lines] at (3.0, 3.5){};
+    \node[box, pattern=north west lines] at (3.0, 4.0){};
+    \node[box, pattern=north west lines] at (3.0, 4.5){};
+    
+    \foreach \y in {0.5, 1}
+     \node[box, pattern=crosshatch] at(1, \y){};
+    \foreach \y in {0.5, 1, ..., 3}
+     \node[box, pattern=crosshatch] at(1.5, \y){};
+    \foreach \y in {2.5, 3}
+     \node[box, pattern=crosshatch] at(2, \y){};
+   
+    \foreach \y in {2.5, 3, ..., 4}
+     \node[box, pattern=crosshatch] at(2.5, \y){};
+   
+    \foreach \y in {0.5, 1}
+     \node[box, pattern=crosshatch] at(4, \y){};
+    \foreach \y in {0.5, 1, ..., 3}
+     \node[box, pattern=crosshatch] at(3.5, \y){};
+    \foreach \y in {2.5, 3}
+     \node[box, pattern=crosshatch] at(3, \y){};
+    
+     
+    \foreach \x in {2, 2.5, 3}
+     \node[box, pattern=crosshatch] at(\x, 0.5){};
+\end{tikzpicture}
+\end{document}
