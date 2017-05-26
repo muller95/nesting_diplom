@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  26 MAY 2017 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  26 MAY 2017 10:44
 entering extended mode
 **./diplom.tex
 (diplom.tex
@@ -699,26 +699,26 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (diplom.aux)
 \openout1 = `diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
  ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -728,11 +728,11 @@ LaTeX Font Info:    ... okay on input line 54.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
 * v-part:(T,H,B)=(53.49118pt, 711.3189pt, 80.23677pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=483.69687pt
 * \textheight=711.3189pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
@@ -823,81 +823,71 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 115.
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 115.
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 115.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 121.
 
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 115.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 115.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 115.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 121.
 
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
- [3] [4]
-Overfull \hbox (8.05779pt too wide) in paragraph at lines 136--136
-[]\T2A/cmr/bx/n/20.74 Методы пред-став-ле-ния фи-гур для рас-кроя 
- []
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+ [3]
 (first_placed.tex) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def
 "
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) (second_tetris.tex)
-Overfull \hbox (2.5951pt too wide) in paragraph at lines 144--146
- [] \T2A/cmr/m/n/14.4 Са-мый пер-вый ме-тод, ко-то-рый бу-дет ин-ту-и-тив-но по
--ня-тен всем  <<лест-
- []
 
-[5] ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-(second_through.tex) [6] (polygon.tex
+(second_through.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [7] [8] (first_rastr.tex) [9] (fig_on_rastr.tex) [10] (result_contour.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]
-Overfull \hbox (1.12892pt too wide) in paragraph at lines 226--228
-\T2A/cmr/m/n/14.4 клет-ки, от-ме-чен-ные циф-рой $\OT1/cmr/m/n/14.4 2$\T2A/cmr/
-m/n/14.4 , от-ме-тить циф-рой $\OT1/cmr/m/n/14.4 0$\T2A/cmr/m/n/14.4 . Сво-бод-
-ные клет-
+[4] [5] (polygon.tex) [6]
+Overfull \hbox (6.68388pt too wide) in paragraph at lines 178--179
+[]\T2A/cmr/m/n/14.4 Растровые ме-то-ды пред-ла-га-ют раз-де-лить непре-рыв-ный 
+рас-крой-ный лист
  []
 
-(12fill_result.tex
+(first_rastr.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (3fill_result.tex
+[7] (fig_on_rastr.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (4fill_result.tex
+[8] [9] (result_contour.tex) [10] (12fill_result.tex) (3fill_result.tex)
+(4fill_result.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -905,38 +895,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [12] [13] [14] (bl_principle.tex) [15]
-Overfull \hbox (1.07999pt too wide) in paragraph at lines 275--278
-\T2A/cmr/m/n/14.4 моз-га, эво-лю-ци-он-ные ал-го-рит-мы (ЭА) вос-про-из-во-дят 
-био-ло-ги-че-скую эво-
- []
-
-[16] [17] [18]
-Overfull \hbox (1.83685pt too wide) in paragraph at lines 318--319
- [] \T2A/cmr/m/n/14.4 Из кур-са ма-те-ма-ти-че-ско-го ана-ли-за из-вест-но, что
- функ-ция мо-жет иметь
- []
-
-(not_solve.tex) [19] [20] <plane1.png, id=81, 851.18pt x 852.786pt>
+) [11] [12] [13] (bl_principle.tex) [14] [15] [16] (not_solve.tex) [17]
+[18] <plane1.png, id=74, 851.18pt x 852.786pt>
 File: plane1.png Graphic file (type png)
-
-<use plane1.png>
-Package pdftex.def Info: plane1.png used on input line 355.
+ <use plane1.png>
+Package pdftex.def Info: plane1.png used on input line 379.
 (pdftex.def)             Requested size: 153.20578pt x 153.49486pt.
- <plane2.png, id=83, 852.786pt x 852.786pt>
+
+<plane2.png, id=76, 852.786pt x 852.786pt>
 File: plane2.png Graphic file (type png)
  <use plane2.png>
-Package pdftex.def Info: plane2.png used on input line 356.
+Package pdftex.def Info: plane2.png used on input line 380.
 (pdftex.def)             Requested size: 153.49486pt x 153.49486pt.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-33.def"
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-) [21 <./plane1.png> <./plane2.png>] [22] (diplom.aux) ) 
+) [19 <./plane1.png> <./plane2.png>] [20] (diplom.aux) ) 
 Here is how much of TeX's memory you used:
- 20194 strings out of 493334
- 360657 string characters out of 3136672
- 682820 words of memory out of 3000000
- 23268 multiletter control sequences out of 15000+200000
+ 20197 strings out of 493334
+ 360687 string characters out of 3136672
+ 626418 words of memory out of 3000000
+ 23271 multiletter control sequences out of 15000+200000
  15479 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,92p,1258b,816s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -953,9 +932,9 @@ ts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on diplom.pdf (22 pages, 476065 bytes).
+Output written on diplom.pdf (20 pages, 472848 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
+ 385 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
