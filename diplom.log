@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  26 MAY 2017 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  26 MAY 2017 14:20
 entering extended mode
 **./diplom.tex
 (diplom.tex
@@ -719,12 +719,6 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
@@ -761,26 +755,26 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (diplom.aux)
 \openout1 = `diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
  ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -882,119 +876,338 @@ Package caption Info: End \AtBeginDocument code.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-4.def"
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-) [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 124.
-
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 69.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 124.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 124.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 124.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 124.
-
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 124.
- [3]
-(first_placed.tex) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def
-"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) (second_tetris.tex)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (diplom.toc)
+\tf@toc=\write4
+\openout4 = `diplom.toc'.
+
+ [2] [3] [4]
+(first_placed.tex) [5] (second_tetris.tex) (second_through.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-(second_through.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5] (polygon.tex) [6]
-Overfull \hbox (6.68388pt too wide) in paragraph at lines 181--182
+[6] [7] (polygon.tex) [8]
+Overfull \hbox (6.68388pt too wide) in paragraph at lines 204--205
 []\T2A/cmr/m/n/14.4 Растровые ме-то-ды пред-ла-га-ют раз-де-лить непре-рыв-ный 
 рас-крой-ный лист
  []
 
-[7]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 198.
+ I therefore use two columns instead on input line 221.
 
-(first_rastr.tex) (fig_on_rastr.tex) [8] (result_contour.tex) [9]
-
-Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 242.
-
-[10] (12fill_result.tex) (3fill_result.tex)
+[9] (first_rastr.tex) (fig_on_rastr.tex) [10] (result_contour.tex) [11]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 246.
+ I therefore use two columns instead on input line 265.
 
-(4fill_result.tex) (fill_result.tex) [11] [12] (bl_principle.tex) [13] [14]
-[15] (not_solve.tex) [16] [17] <plane1.png, id=71, 851.18pt x 852.786pt>
+(12fill_result.tex) (3fill_result.tex)
+
+Package multicol Warning: Using `1' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 269.
+
+(4fill_result.tex) (fill_result.tex)
+Overfull \vbox (11.46123pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (11.46123pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (11.46123pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (11.46123pt too high) has occurred while \output is active []
+
+
+[12] [13] (bl_principle.tex) [14] [15] [16] (not_solve.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17] [18] <goparents.png, id=75, 795.72281pt x 603.0028pt>
+File: goparents.png Graphic file (type png)
+ <use goparents.png>
+Package pdftex.def Info: goparents.png used on input line 398.
+(pdftex.def)             Requested size: 397.86043pt x 301.50066pt.
+
+[19] [20 <./goparents.png>]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 409
+.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/point.go) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def
+"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/primitive.go)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) [21]
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/figure.go) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.de
+f"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/rastr.go) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def
+"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+Overfull \hbox (5.54321pt too wide) in paragraph at lines 425--426
+[]\T2A/cmr/m/n/14.4 Информация о ре-зуль-та-те рас-кроя пред-став-ля-ет-ся стру
+к-ту-рой [][][],
+ []
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/position.go) [22]
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+Overfull \hbox (1.33548pt too wide) in paragraph at lines 429--430
+[]\T2A/cmr/m/n/14.4 Основная эле-мент ге-не-ти-че-ско-го ал-го-рит-ма ин-ди-вид
+ пред-став-лен струк-
+ []
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/individual.go)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) [23]
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/mutate.go [24])
+Overfull \hbox (0.40495pt too wide) in paragraph at lines 443--444
+[]\T2A/cmr/m/n/14.4 Скрещевание ин-ди-ви-дов пред-став-ле-но функ-ци-ей, при-ни
+-ма-ю-щей на вход
+ []
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/crossover.go [25])
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/fig_to_rastr.go [26] [27] [28])
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) [29]
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/rastr_nest.go [30]
+Overfull \hbox (103.9016pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (103.9016pt too wide) in paragraph at lines 57--58
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[31]) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/place_fig.go [32] [33]) [34]
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+) (listings/main.go [35] [36] [37]) [38] <plane1.png, id=141, 851.18pt x 852.78
+6pt>
 File: plane1.png Graphic file (type png)
 
 <use plane1.png>
-Package pdftex.def Info: plane1.png used on input line 387.
+Package pdftex.def Info: plane1.png used on input line 488.
 (pdftex.def)             Requested size: 153.20578pt x 153.49486pt.
- <plane2.png, id=73, 852.786pt x 852.786pt>
+ <plane2.png, id=143, 852.786pt x 852.786pt>
 File: plane2.png Graphic file (type png)
  <use plane2.png>
-Package pdftex.def Info: plane2.png used on input line 388.
+Package pdftex.def Info: plane2.png used on input line 489.
 (pdftex.def)             Requested size: 153.49486pt x 153.49486pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-33.def"
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-) [18 <./plane1.png> <./plane2.png>] [19] (diplom.aux) ) 
+) [39] [40 <./plane1.png> <./plane2.png>] [41] (diplom.aux) ) 
 Here is how much of TeX's memory you used:
- 20547 strings out of 493334
- 365304 string characters out of 3136672
- 831175 words of memory out of 3000000
- 23610 multiletter control sequences out of 15000+200000
- 15479 words of font info for 38 fonts, out of 3000000 for 9000
+ 20691 strings out of 493334
+ 371425 string characters out of 3136672
+ 740235 words of memory out of 3000000
+ 23608 multiletter control sequences out of 15000+200000
+ 22112 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,92p,1258b,895s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\vadim\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\vadi
-m\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Us
-ers\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1
-440.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi6
-00\lati1200.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-
-t2a\dpi600\labx1440.pk><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on diplom.pdf (19 pages, 469088 bytes).
+ 55i,9n,92p,2180b,1266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\vadim\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users
+\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <
+C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx20
+74.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
+0\larm1728.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t
+2a\dpi600\labx1728.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\unknown\unknown\dpi600\larm1440.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk><D:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on diplom.pdf (41 pages, 682886 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
+ 644 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
