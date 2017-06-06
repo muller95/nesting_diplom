@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  6 JUN 2017 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  6 JUN 2017 11:41
 entering extended mode
 **./diplom.tex
 (diplom.tex
@@ -936,24 +936,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7] [8] (polygon.tex) [9]
-Overfull \hbox (6.68388pt too wide) in paragraph at lines 203--204
+Overfull \hbox (6.68388pt too wide) in paragraph at lines 202--203
 []\T2A/cmr/m/n/14.4 Растровые ме-то-ды пред-ла-га-ют раз-де-лить непре-рыв-ный 
 рас-крой-ный лист
  []
 
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 220.
+ I therefore use two columns instead on input line 219.
 
 [10] (first_rastr.tex) (fig_on_rastr.tex) [11] (result_contour.tex) [12]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 264.
+ I therefore use two columns instead on input line 263.
 
 (12fill_result.tex) (3fill_result.tex)
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 268.
+ I therefore use two columns instead on input line 267.
 
 (4fill_result.tex) (fill_result.tex)
 Overfull \vbox (11.46123pt too high) has occurred while \output is active []
@@ -975,11 +975,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [18] [19] <goparents.png, id=79, 795.72281pt x 603.0028pt>
 File: goparents.png Graphic file (type png)
  <use goparents.png>
-Package pdftex.def Info: goparents.png used on input line 397.
+Package pdftex.def Info: goparents.png used on input line 396.
 (pdftex.def)             Requested size: 397.86043pt x 301.50066pt.
 
 [20] [21 <./goparents.png>]
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 412
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 411
 .
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
@@ -1087,7 +1087,7 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-Overfull \hbox (5.54321pt too wide) in paragraph at lines 428--429
+Overfull \hbox (5.54321pt too wide) in paragraph at lines 427--428
 []\T2A/cmr/m/n/14.4 Информация о ре-зуль-та-те рас-кроя пред-став-ля-ет-ся стру
 к-ту-рой [][][],
  []
@@ -1108,7 +1108,7 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-Overfull \hbox (1.33548pt too wide) in paragraph at lines 432--433
+Overfull \hbox (1.33548pt too wide) in paragraph at lines 431--432
 []\T2A/cmr/m/n/14.4 Основная эле-мент ге-не-ти-че-ско-го ал-го-рит-ма ин-ди-вид
  пред-став-лен струк-
  []
@@ -1127,7 +1127,7 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
 (listings/mutate.go)
-Overfull \hbox (0.40495pt too wide) in paragraph at lines 446--447
+Overfull \hbox (0.40495pt too wide) in paragraph at lines 445--446
 []\T2A/cmr/m/n/14.4 Скрещевание ин-ди-ви-дов пред-став-ле-но функ-ци-ей, при-ни
 -ма-ю-щей на вход
  []
@@ -1158,13 +1158,13 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 File: set1_0.png Graphic file (type png)
 
 <use set1_0.png>
-Package pdftex.def Info: set1_0.png used on input line 476.
+Package pdftex.def Info: set1_0.png used on input line 475.
 (pdftex.def)             Requested size: 207.02293pt x 207.02293pt.
  <set1_1.png, id=149, 828.09375pt x 828.09375pt>
 File: set1_1.png Graphic file (type png)
 
 <use set1_1.png>
-Package pdftex.def Info: set1_1.png used on input line 477.
+Package pdftex.def Info: set1_1.png used on input line 476.
 (pdftex.def)             Requested size: 207.02293pt x 207.02293pt.
 
 
@@ -1173,10 +1173,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [41] <set2.png, id=153, 1204.5pt x 1204.5pt>
 File: set2.png Graphic file (type png)
  <use set2.png>
-Package pdftex.def Info: set2.png used on input line 492.
+Package pdftex.def Info: set2.png used on input line 491.
 (pdftex.def)             Requested size: 216.80064pt x 216.80064pt.
  [42 <./set1_0.png> <./set1_1.png> <./set2.png>]
-Overfull \hbox (0.41643pt too wide) in paragraph at lines 508--509
+Overfull \hbox (0.41643pt too wide) in paragraph at lines 507--508
 \T2A/cmr/m/n/14.4 тель-ное упро-ще-ние про-цес-са при ис-поль-зо-ва-нии язы-ка 
 Go. Хо-тя Go и несколь-
  []
@@ -1207,7 +1207,7 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on diplom.pdf (44 pages, 601024 bytes).
+Output written on diplom.pdf (44 pages, 601033 bytes).
 PDF statistics:
  665 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
