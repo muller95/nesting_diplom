@@ -1,73 +1,98 @@
-func RastrNest(figSet []*Figure, indiv *Individual, width, height, bound, resize int,
-	rastrType RastrType, placementMode PlacementMode) error {
-	if width <= 0 {
-		return errors.New("Negative or zero width")
-	} else if height <= 0 {
-		return errors.New("Negative or zero height")
-	} else if resize < 0 {
-		return errors.New("Negative resize")
-	} else if bound < 0 {
-		return errors.New("Negative bound")
-	}
-
-	if resize < 1 {
-		resize = 1
-	}
-
-	posits := make([]Position, 0)
-	place := make([][]int, height/resize)
-	for i := 0; i < height/resize; i++ {
-		place[i] = make([]int, width/resize)
-	}
-
-	if len(indiv.Genom) == 0 {
-		indiv.Genom = make([]int, 0)
-	}
-
-	mask := make([]int, len(figSet))
-	failNest := make(map[int]bool)
-	for i := 0; i < len(indiv.Genom); i++ {
-		figNum := indiv.Genom[i]
-		fig := figSet[figNum]
-		if failNest[fig.ID] {
-			continue
+for len(figSet) > 0 {
+		indivs := make([]*gonest.Individual, 1)
+		indivs[0] = new(gonest.Individual)
+		err = gonest.RastrNest(figSet, indivs[0], width, height, bound, resize)
+		if err != nil {
+			log.Fatal("Error! RastrNest: ", err)
 		}
-		if placeFigHeight(fig, &posits, width, height, resize,
-			bound, place) {
-			posits[len(posits)-1].Fig.Translate(posits[len(posits)-1].X, posits[len(posits)-1].Y)
-			mask[i] = 1
-		} else {
-			// fmt.Println("Fail nest")
-			failNest[fig.ID] = true
-		}
-	}
 
-	if len(posits) < len(indiv.Genom) {
-		indiv.Height = math.Inf(1)
-		return nil
-	}
+		for i := 0; i < iterations; i++ {
+			nmbNew := 0
+			oldLen := len(indivs)
+			wg := new(sync.WaitGroup)
+			for j := 0; j < oldLen-1 && indivs[j+1].Height != math.Inf(1) &&
+				nmbNew < maxThreads; j++ {
+				var children [2]*gonest.Individual
 
-	for i := 0; i < len(figSet); i++ {
-		fig := figSet[i]
-		if mask[i] > 0 || failNest[fig.ID] {
-			continue
-		}
-		if placeFigHeight(fig, &posits, width, height, resize,
-			bound, place) {
-			posits[len(posits)-1].Fig.Translate(posits[len(posits)-1].X, posits[len(posits)-1].Y)
-			indiv.Genom = append(indiv.Genom, i)
-		} else {
-			// fmt.Println("Fail nest")
-			failNest[fig.ID] = true
-		}
-	}
+				children[0], err = gonest.Crossover(indivs[j], indivs[j+1])
+				if err != nil {
+					log.Println(err)
+					break
+				}
+				children[1], _ = gonest.Crossover(indivs[j+1], indivs[j])
 
-	indiv.Positions = posits
-	maxHeight := 0.0
-	for i := 0; i < len(posits); i++ {
-		currHeight := posits[i].X + posits[i].Fig.Height
-		maxHeight = math.Max(currHeight, maxHeight)
+				for k := 0; k < 2; k++ {
+					equal := false
+					for m := 0; m < oldLen+nmbNew; m++ {
+						if gonest.IndividualsEqual(indivs[m], children[k], figSet) {
+							equal = true
+							break
+						}
+					}
+
+					if !equal {
+						nmbNew++
+						wg.Add(1)
+						go nestRoutine(children[k], wg)
+						indivs = append(indivs, children[k])
+					}
+				}
+			}
+
+			for j := 0; j < maxMutateTries && nmbNew < maxThreads; j++ {
+				mutant, err := indivs[0].Mutate()
+				if err != nil {
+					break
+				}
+
+				equal := false
+				for k := 0; k < oldLen+nmbNew; k++ {
+					if gonest.IndividualsEqual(indivs[k], mutant, figSet) {
+						equal = true
+						break
+					}
+				}
+
+				if !equal {
+					nmbNew++
+					wg.Add(1)
+					go nestRoutine(mutant, wg)
+					indivs = append(indivs, mutant)
+				}
+			}
+
+			wg.Wait()
+			sort.Sort(gonest.Individuals(indivs))
+		}
+
+		err = gonest.RastrNest(figSet, indivs[0], width, height, bound, resize)
+		for i := 0; i < len(indivs[0].Positions); i++ {
+			a := indivs[0].Positions[i].Fig.Matrix[0][0]
+			b := indivs[0].Positions[i].Fig.Matrix[1][0]
+			c := indivs[0].Positions[i].Fig.Matrix[0][1]
+			d := indivs[0].Positions[i].Fig.Matrix[1][1]
+			e := indivs[0].Positions[i].Fig.Matrix[0][2]
+			f := indivs[0].Positions[i].Fig.Matrix[1][2]
+
+			fmt.Printf("%d\n", indivs[0].Positions[i].Fig.ID)
+			fmt.Printf("matrix(%f, %f, %f, %f, %f, %f)\n", a, b, c, d, e, f)
+		}
+		fmt.Println(":")
+		newFigSet := make([]*gonest.Figure, 0)
+		for i := 0; i < len(figSet); i++ {
+			var j int
+			found := false
+			for j = 0; j < len(indivs[0].Genom); j++ {
+				if i == indivs[0].Genom[j] {
+					found = true
+					break
+				}
+			}
+
+			if !found {
+				newFigSet = append(newFigSet, figSet[i])
+			}
+		}
+
+		figSet = newFigSet
 	}
-	indiv.Height = maxHeight
-	return nil
-}

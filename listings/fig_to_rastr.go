@@ -1,4 +1,4 @@
-func (fig *Figure) FigToRastr(rt RastrType, resize int, bound int) *Rastr {
+func (fig *Figure) figToRastr(resize int, bound int) *Rastr {
 	rastr := new(Rastr)
 
 	rastr.Width = int(fig.Width) + 1
@@ -11,7 +11,6 @@ func (fig *Figure) FigToRastr(rt RastrType, resize int, bound int) *Rastr {
 
 	for i := 0; i < len(fig.Primitives); i++ {
 		for j := 0; j < len(fig.Primitives[i].Points)-1; j++ {
-
 			var top, bottom Point
 
 			if fig.Primitives[i].Points[j].Y > fig.Primitives[i].Points[j+1].Y {
@@ -28,6 +27,7 @@ func (fig *Figure) FigToRastr(rt RastrType, resize int, bound int) *Rastr {
 					x1 := calcX(top, bottom, intervals[k])
 					x2 := calcX(top, bottom, intervals[k+1])
 					y := intervals[k]
+					// y1 := intervals[k+1]
 
 					step := 1.0
 					if x2 <= x1 {
@@ -74,11 +74,7 @@ func (fig *Figure) FigToRastr(rt RastrType, resize int, bound int) *Rastr {
 		}
 	}
 
-	if rt == RastrTypePartInPart {
-		rastr.floodRastrPartInPart()
-	} else {
-		rastr.floodRastrSimple()
-	}
+	rastr.floodRastr()
 
 	return rastr
 }

@@ -3,10 +3,9 @@ func placeFigHeight(fig *Figure, posits *[]Position, width, height, resize, boun
 	placed := false
 
 	for angle := 0.0; angle < 360.0; angle += fig.AngleStep {
-
 		currFig := fig.copy()
 		currFig.Rotate(angle)
-		rastr := currFig.figToRastr(rt, resize, bound)
+		rastr := currFig.figToRastr(resize, bound)
 		if rastr.Width > width/resize || rastr.Height > height/resize {
 			return false
 		}
@@ -42,7 +41,7 @@ func placeFigHeight(fig *Figure, posits *[]Position, width, height, resize, boun
 		return false
 	}
 
-	rastr := (*posits)[len(*posits)-1].Fig.figToRastr(rt, resize, bound)
+	rastr := (*posits)[len(*posits)-1].Fig.figToRastr(resize, bound)
 	for i := 0; i < rastr.Height; i++ {
 		for j := 0; j < rastr.Width; j++ {
 			x := int((*posits)[len(*posits)-1].X) / resize

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  31 MAY 2017 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  6 JUN 2017 11:25
 entering extended mode
 **./diplom.tex
 (diplom.tex
@@ -930,12 +930,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 \tf@toc=\write4
 \openout4 = `diplom.toc'.
 
- [2] [3] [4]
-(first_placed.tex) [5] (second_tetris.tex) (second_through.tex)
+ [2] [3] [4] [5]
+(first_placed.tex) [6] (second_tetris.tex) (second_through.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7] (polygon.tex) [8]
+[7] [8] (polygon.tex) [9]
 Overfull \hbox (6.68388pt too wide) in paragraph at lines 203--204
 []\T2A/cmr/m/n/14.4 Растровые ме-то-ды пред-ла-га-ют раз-де-лить непре-рыв-ный 
 рас-крой-ный лист
@@ -945,7 +945,7 @@ Overfull \hbox (6.68388pt too wide) in paragraph at lines 203--204
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 220.
 
-[9] (first_rastr.tex) (fig_on_rastr.tex) [10] (result_contour.tex) [11]
+[10] (first_rastr.tex) (fig_on_rastr.tex) [11] (result_contour.tex) [12]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 264.
@@ -968,17 +968,17 @@ Overfull \vbox (11.46123pt too high) has occurred while \output is active []
 Overfull \vbox (11.46123pt too high) has occurred while \output is active []
 
 
-[12] [13] (bl_principle.tex) [14] [15] [16] (not_solve.tex)
+[13] [14] (bl_principle.tex) [15] [16] [17] (not_solve.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18] <goparents.png, id=75, 795.72281pt x 603.0028pt>
+[18] [19] <goparents.png, id=79, 795.72281pt x 603.0028pt>
 File: goparents.png Graphic file (type png)
  <use goparents.png>
 Package pdftex.def Info: goparents.png used on input line 397.
 (pdftex.def)             Requested size: 397.86043pt x 301.50066pt.
 
-[19] [20 <./goparents.png>]
+[20] [21 <./goparents.png>]
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 412
 .
 
@@ -1003,7 +1003,7 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-(listings/point.go [21])
+(listings/point.go [22])
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
@@ -1071,7 +1071,7 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-(listings/rastr.go [22])
+(listings/rastr.go [23])
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
@@ -1119,10 +1119,10 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 (listings/individual.go)
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [23]
+) [24]
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-) [24]
+) [25]
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
@@ -1135,78 +1135,81 @@ Overfull \hbox (0.40495pt too wide) in paragraph at lines 446--447
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-(listings/crossover.go [25] [26])
+(listings/crossover.go [26] [27])
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+(listings/fig_to_rastr.go [28] [29]) [30]
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
-(listings/fig_to_rastr.go [27] [28] [29])
+(listings/rastr_nest.go [31] [32] [33])
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
+(listings/place_fig.go [34] [35]) [36]
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-)
-(listings/rastr_nest.go [30]
-Overfull \hbox (103.9016pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][] 
+) (listings/main.go [37] [38] [39]) [40] <set1_0.png, id=147, 828.09375pt x 828
+.09375pt>
+File: set1_0.png Graphic file (type png)
+
+<use set1_0.png>
+Package pdftex.def Info: set1_0.png used on input line 476.
+(pdftex.def)             Requested size: 207.02293pt x 207.02293pt.
+ <set1_1.png, id=149, 828.09375pt x 828.09375pt>
+File: set1_1.png Graphic file (type png)
+
+<use set1_1.png>
+Package pdftex.def Info: set1_1.png used on input line 477.
+(pdftex.def)             Requested size: 207.02293pt x 207.02293pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41] <set2.png, id=153, 1204.5pt x 1204.5pt>
+File: set2.png Graphic file (type png)
+ <use set2.png>
+Package pdftex.def Info: set2.png used on input line 492.
+(pdftex.def)             Requested size: 216.80064pt x 216.80064pt.
+ [42 <./set1_0.png> <./set1_1.png> <./set2.png>]
+Overfull \hbox (0.41643pt too wide) in paragraph at lines 508--509
+\T2A/cmr/m/n/14.4 тель-ное упро-ще-ние про-цес-са при ис-поль-зо-ва-нии язы-ка 
+Go. Хо-тя Go и несколь-
  []
-
-[31]
-Overfull \hbox (103.9016pt too wide) in paragraph at lines 57--58
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [32] ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-)
-(listings/place_fig.go [33] [34])
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-) (listings/main.go [35] [36] [37] [38]) [39] <plane1.png, id=144, 851.18pt x 8
-52.786pt>
-File: plane1.png Graphic file (type png)
-
-<use plane1.png>
-Package pdftex.def Info: plane1.png used on input line 491.
-(pdftex.def)             Requested size: 153.20578pt x 153.49486pt.
- <plane2.png, id=146, 852.786pt x 852.786pt>
-File: plane2.png Graphic file (type png)
- <use plane2.png>
-Package pdftex.def Info: plane2.png used on input line 492.
-(pdftex.def)             Requested size: 153.49486pt x 153.49486pt.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-33.def"
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-) [40 <./plane1.png> <./plane2.png>] [41] (diplom.aux) ) 
+) [43] [44]
+(diplom.aux) ) 
 Here is how much of TeX's memory you used:
- 20691 strings out of 493334
- 371425 string characters out of 3136672
- 740222 words of memory out of 3000000
- 23608 multiletter control sequences out of 15000+200000
+ 20696 strings out of 493334
+ 371378 string characters out of 3136672
+ 740237 words of memory out of 3000000
+ 23614 multiletter control sequences out of 15000+200000
  22112 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,92p,2180b,1250s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\vadim\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\vadi
-m\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Us
-ers\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk
-> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lar
-m1728.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dp
-i600\labx1728.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unkn
-own\unknown\dpi600\larm1440.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk><D:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on diplom.pdf (41 pages, 675687 bytes).
+ <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t
+2a\dpi600\latt1440.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\vadim\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk> <C:\Users\vadim\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\vadim\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1440.pk> <C:\Users\
+vadim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk><D:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on diplom.pdf (44 pages, 601024 bytes).
 PDF statistics:
- 645 PDF objects out of 1000 (max. 8388607)
+ 665 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
